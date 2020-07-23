@@ -38,7 +38,6 @@ class Details extends Component {
   };
   constructor(props) {
     super(props);
-    // this.typeChange = this.typeChange.bind(this);
     this.onFinish = this.onFinish.bind(this);
     this.checkAdv = this.checkAdv.bind(this);
     this.getParamsFun = this.getParamsFun.bind(this);
