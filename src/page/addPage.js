@@ -62,7 +62,6 @@ class Details extends Component {
       .then(function (res) {
         _this.formRef.current.setFieldsValue(res.data.data);
         _this.formRef.current.setFieldsValue({'type': '','accountName':''});
-        // console.log(_this.state.detail);
       })
       .catch(function (error) {
         _this.setState({
